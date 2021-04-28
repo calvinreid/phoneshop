@@ -1,0 +1,39 @@
+/*** Margins: header and footer ***/
+
+.HeaderImg
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+body
+{
+	background-color: #333333;
+	color:white;
+	font-family: 'Impact', Charcoal, sans-serif;
+	position:relative;
+	margin-bottom: 2em;
+}
+
+h1
+{
+	background-color:#333333;
+	color:white;
+	font-family: 'Impact', Charcoal, sans-serif;
+	font-size: 2rem;
+	font-weight:bolder;
+	text-align: left;
+	text-decoration: underline;
+}
+
+footer
+{
+	background-color: #333333;
+	color:white;
+	font-family: 'Impact', Charcoal, sans-serif;
+	font-size: 1em;
+	margin-top:auto;
+	margin-bottom:auto;
+}

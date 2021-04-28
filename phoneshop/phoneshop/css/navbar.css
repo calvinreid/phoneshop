@@ -1,0 +1,58 @@
+/*This page is the css coding for my nav bar */
+
+nav ul
+{
+display:flex;
+flex-wrap: wrap;
+list-style-type:none;
+margin: 1 em;
+padding: 0 em;
+color:white;
+width:auto;
+font-size:1em;
+}
+nav ul li
+{
+flex:1 0 200px;
+margin: 1 em;
+padding: 1 em;
+color:white;
+width:auto;
+background-color:#333333;
+font-size:1em;
+font-family: 'Impact', Charcoal, sans-serif;
+}
+nav ul li a:link
+{
+display:block;
+color:white;
+background-color:#333333;
+text-decoration:none;
+text-align:center;
+font-size:1em;
+font-family: 'Impact', Charcoal, sans-serif;
+}
+nav ul li a:visited
+{
+color:white;
+display:block;
+text-decoration:none;
+background-color:#333333;
+}
+nav ul li a:hover
+{
+background-color:#6B7878;
+text-decoration: none;
+font-family: 'Impact', Charcoal, sans-serif;
+font-size:1em;
+font-weight:bolder;
+/*Adds a shadow when user hovers */
+color:white;
+}
+nav ul li a.current_page
+{
+background-color:#d4af37;
+text-decoration: underline;
+font-family: 'Impact', Charcoal, sans-serif;
+font-size:1em;
+color:white;
